@@ -46,5 +46,5 @@ window.onload = function() {
   } ${when[Math.floor(Math.random() * when.length)]}`;
 
   //testing the random number
-  document.getElementById("test").innerHTML = Math.floor(Math.random() * 6);
+  //   document.getElementById("test").innerHTML = Math.floor(Math.random() * 6);
 };
