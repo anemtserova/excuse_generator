@@ -48,3 +48,9 @@ window.onload = function() {
   //testing the random number
   //   document.getElementById("test").innerHTML = Math.floor(Math.random() * 6);
 };
+
+let refresh = document.getElementById("refresh");
+
+refresh.addEventListener("click", function() {
+  location.reload();
+});
