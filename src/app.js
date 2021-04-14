@@ -32,7 +32,7 @@ window.onload = function() {
   ];
   let when = [
     "before the class",
-    "in the hallway",
+    "in the parking lot",
     "when I wasn't looking",
     "during my third lunch",
     'while I was singing "Jingle Bells"'
@@ -44,6 +44,7 @@ window.onload = function() {
   ${action[Math.floor(Math.random() * (action.length - 1))]} ${
     what[Math.floor(Math.random() * (what.length - 1))]
   } ${when[Math.floor(Math.random() * (when.length - 1))]}`;
+
+  //testing the random number
   document.getElementById("test").innerHTML = Math.floor(Math.random() * 6);
-  //console.log(w
 };
