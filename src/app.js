@@ -31,19 +31,19 @@ window.onload = function() {
     "my time machine"
   ];
   let when = [
-    "before the class",
-    "in the parking lot",
-    "when I wasn't looking",
-    "during my third lunch",
-    'while I was singing "Jingle Bells"'
+    "before the class.",
+    "in the parking lot.",
+    "when I wasn't looking.",
+    "during my third lunch.",
+    'while I was singing "Jingle Bells."'
   ];
 
   let excuse = document.getElementById("excuse");
 
-  excuse.innerHTML = `${who[Math.floor(Math.random() * (who.length - 1))]}
-  ${action[Math.floor(Math.random() * (action.length - 1))]} ${
-    what[Math.floor(Math.random() * (what.length - 1))]
-  } ${when[Math.floor(Math.random() * (when.length - 1))]}`;
+  excuse.innerHTML = `${who[Math.floor(Math.random() * who.length)]}
+  ${action[Math.floor(Math.random() * action.length)]} ${
+    what[Math.floor(Math.random() * what.length)]
+  } ${when[Math.floor(Math.random() * when.length)]}`;
 
   //testing the random number
   document.getElementById("test").innerHTML = Math.floor(Math.random() * 6);
